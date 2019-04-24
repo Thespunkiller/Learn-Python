@@ -15,5 +15,3 @@ while inp != hidden:
         print("to high")
     elif inp == hidden:
         print("correct")
-
-
