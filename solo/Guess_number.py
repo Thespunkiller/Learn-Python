@@ -3,7 +3,7 @@ from random import randint
 
 hidden = randint(1, 6)
 
-print("this is the hidden number ",hidden)
+print("this is the hidden number",hidden)
 
 inp = int(input("guess a number\n"))
 
@@ -15,9 +15,5 @@ while inp != hidden:
         print("to high")
     elif inp == hidden:
         print("correct")
-
-
-
-
 
 
